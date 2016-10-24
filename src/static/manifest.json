@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "ScreenShotter",
+    "version": "0.0.1",
+    "permissions": [
+        "activeTab", "<all_urls>"
+    ],
+
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+}
